@@ -17,21 +17,20 @@ public class Tic_Toc_Toe {
 		else 
 			System.out.println("Wrong selection");
 	}
-	                                        // creating a board to play
+	// creating a board to play
 	public static void board() 
 	{
-		                                    // giving each array index value as empty initially
+		// giving each array index value as empty initially
 		for(int i=1;i < 10 ; i++) {
 			board[i] =' ';
 		}
-		
+
 	}
 	public static char chooseLetter() {
 		Scanner s = new Scanner(System.in);
-		System.out.println("please select X or O ");
+		System.out.println("please  select X  or O ");
 		char letter = s.next().charAt(0);
 		return letter;
 	}
 
 }
- 
